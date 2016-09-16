@@ -22,10 +22,10 @@ import butterknife.ButterKnife;
  */
 public abstract class BaseActivity<T extends BasePresenter, E extends BaseModel> extends AppCompatActivity {
     //是不是夜间模式 根据是否是夜间模式设置不同的主题
-    public boolean isNight;
+    public boolean isMNight;
     //MVP---->P
     public T mPresenter;
-    //MVP---->M
+    //MVP---->
     public E mModel;
     //上下文
     public Context mContext;
